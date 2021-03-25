@@ -1,0 +1,9 @@
+ignore everything
+*
+# But descend into directories
+!*/
+# Recursively allow files under subtree
+!/app/assets/javascripts/**
+# You can be specific with these rules
+# !/some/other/deep/path/**
+!.gitignore
