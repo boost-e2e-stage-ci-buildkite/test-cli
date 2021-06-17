@@ -1,7 +1,7 @@
 #!/bin/sh
 
 rm -f /tmp/command.cid
-docker create --cidfile /tmp/command.cid --rm --tty presidentbeef/brakeman --format sarif
+docker create --cidfile /tmp/command.cid --rm presidentbeef/brakeman --format sarif
 container_id=$(cat /tmp/command.cid)
 rm -f /tmp/command.cid
 docker cp "${PWD}/." "${container_id}:/code/"
