@@ -4956,6 +4956,4668 @@
           ]
         },
         {
+          "ruleId": "BRAKE0025",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "`Marshal.load` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/password_resets_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 6
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0025",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "`Marshal.load` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/password_resets_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 6
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0025",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "`Marshal.load` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/password_resets_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 6
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0025",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "`Marshal.load` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/password_resets_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 6
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0014",
+          "ruleIndex": 2,
+          "level": "warning",
+          "message": {
+            "text": "Possible command injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/benefits.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0114",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "HTML entities in JSON are not escaped by default."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/environments/production.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0070",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0105",
+          "ruleIndex": 5,
+          "level": "error",
+          "message": {
+            "text": "Potentially dangerous key allowed for mass assignment."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0023",
+          "ruleIndex": 6,
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/dashboard_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0016",
+          "ruleIndex": 7,
+          "level": "error",
+          "message": {
+            "text": "Parameter value used in file name."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0026",
+          "ruleIndex": 8,
+          "level": "error",
+          "message": {
+            "text": "Session cookies should be set to HTTP only."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/session_store.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0029",
+          "ruleIndex": 9,
+          "level": "error",
+          "message": {
+            "text": "Session secret should not be included in version control."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/secret_token.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/analytics.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "error",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 11
+                }
+              }
+            }
+          ]
+        },
+{
+          "ruleId": "BRAKE0114",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "HTML entities in JSON are not escaped by default."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/environments/production.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0070",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0105",
+          "ruleIndex": 5,
+          "level": "error",
+          "message": {
+            "text": "Potentially dangerous key allowed for mass assignment."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0023",
+          "ruleIndex": 6,
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/dashboard_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0016",
+          "ruleIndex": 7,
+          "level": "error",
+          "message": {
+            "text": "Parameter value used in file name."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0026",
+          "ruleIndex": 8,
+          "level": "error",
+          "message": {
+            "text": "Session cookies should be set to HTTP only."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/session_store.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0029",
+          "ruleIndex": 9,
+          "level": "error",
+          "message": {
+            "text": "Session secret should not be included in version control."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/secret_token.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/analytics.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "error",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 11
+                }
+              }
+            }
+          ]
+        },
+{
+          "ruleId": "BRAKE0114",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "HTML entities in JSON are not escaped by default."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/environments/production.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0070",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0105",
+          "ruleIndex": 5,
+          "level": "error",
+          "message": {
+            "text": "Potentially dangerous key allowed for mass assignment."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0023",
+          "ruleIndex": 6,
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/dashboard_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0016",
+          "ruleIndex": 7,
+          "level": "error",
+          "message": {
+            "text": "Parameter value used in file name."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0026",
+          "ruleIndex": 8,
+          "level": "error",
+          "message": {
+            "text": "Session cookies should be set to HTTP only."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/session_store.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0029",
+          "ruleIndex": 9,
+          "level": "error",
+          "message": {
+            "text": "Session secret should not be included in version control."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/secret_token.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/analytics.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "error",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 11
+                }
+              }
+            }
+          ]
+        },
+{
+          "ruleId": "BRAKE0114",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "HTML entities in JSON are not escaped by default."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/environments/production.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0070",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0105",
+          "ruleIndex": 5,
+          "level": "error",
+          "message": {
+            "text": "Potentially dangerous key allowed for mass assignment."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0023",
+          "ruleIndex": 6,
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/dashboard_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0016",
+          "ruleIndex": 7,
+          "level": "error",
+          "message": {
+            "text": "Parameter value used in file name."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0026",
+          "ruleIndex": 8,
+          "level": "error",
+          "message": {
+            "text": "Session cookies should be set to HTTP only."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/session_store.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0029",
+          "ruleIndex": 9,
+          "level": "error",
+          "message": {
+            "text": "Session secret should not be included in version control."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/secret_token.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/analytics.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "error",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 11
+                }
+              }
+            }
+          ]
+        },
+{
+          "ruleId": "BRAKE0114",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "HTML entities in JSON are not escaped by default."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/environments/production.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0070",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0105",
+          "ruleIndex": 5,
+          "level": "error",
+          "message": {
+            "text": "Potentially dangerous key allowed for mass assignment."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0023",
+          "ruleIndex": 6,
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/dashboard_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0016",
+          "ruleIndex": 7,
+          "level": "error",
+          "message": {
+            "text": "Parameter value used in file name."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0026",
+          "ruleIndex": 8,
+          "level": "error",
+          "message": {
+            "text": "Session cookies should be set to HTTP only."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/session_store.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0029",
+          "ruleIndex": 9,
+          "level": "error",
+          "message": {
+            "text": "Session secret should not be included in version control."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/secret_token.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/analytics.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "error",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 11
+                }
+              }
+            }
+          ]
+        },
+{
+          "ruleId": "BRAKE0114",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "HTML entities in JSON are not escaped by default."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/environments/production.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0070",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0105",
+          "ruleIndex": 5,
+          "level": "error",
+          "message": {
+            "text": "Potentially dangerous key allowed for mass assignment."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0023",
+          "ruleIndex": 6,
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/dashboard_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0016",
+          "ruleIndex": 7,
+          "level": "error",
+          "message": {
+            "text": "Parameter value used in file name."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0026",
+          "ruleIndex": 8,
+          "level": "error",
+          "message": {
+            "text": "Session cookies should be set to HTTP only."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/session_store.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0029",
+          "ruleIndex": 9,
+          "level": "error",
+          "message": {
+            "text": "Session secret should not be included in version control."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/secret_token.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/analytics.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "error",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 11
+                }
+              }
+            }
+          ]
+        },
+{
+          "ruleId": "BRAKE0114",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "HTML entities in JSON are not escaped by default."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/environments/production.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0070",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0105",
+          "ruleIndex": 5,
+          "level": "error",
+          "message": {
+            "text": "Potentially dangerous key allowed for mass assignment."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0023",
+          "ruleIndex": 6,
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/dashboard_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0016",
+          "ruleIndex": 7,
+          "level": "error",
+          "message": {
+            "text": "Parameter value used in file name."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0026",
+          "ruleIndex": 8,
+          "level": "error",
+          "message": {
+            "text": "Session cookies should be set to HTTP only."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/session_store.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0029",
+          "ruleIndex": 9,
+          "level": "error",
+          "message": {
+            "text": "Session secret should not be included in version control."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/secret_token.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/analytics.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "error",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 11
+                }
+              }
+            }
+          ]
+        },
+{
+          "ruleId": "BRAKE0114",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "HTML entities in JSON are not escaped by default."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/environments/production.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0070",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0105",
+          "ruleIndex": 5,
+          "level": "error",
+          "message": {
+            "text": "Potentially dangerous key allowed for mass assignment."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0023",
+          "ruleIndex": 6,
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/dashboard_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0016",
+          "ruleIndex": 7,
+          "level": "error",
+          "message": {
+            "text": "Parameter value used in file name."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0026",
+          "ruleIndex": 8,
+          "level": "error",
+          "message": {
+            "text": "Session cookies should be set to HTTP only."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/session_store.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0029",
+          "ruleIndex": 9,
+          "level": "error",
+          "message": {
+            "text": "Session secret should not be included in version control."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/secret_token.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/analytics.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "error",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 11
+                }
+              }
+            }
+          ]
+        },
+{
+          "ruleId": "BRAKE0114",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "HTML entities in JSON are not escaped by default."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/environments/production.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0070",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0105",
+          "ruleIndex": 5,
+          "level": "error",
+          "message": {
+            "text": "Potentially dangerous key allowed for mass assignment."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0023",
+          "ruleIndex": 6,
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/dashboard_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0016",
+          "ruleIndex": 7,
+          "level": "error",
+          "message": {
+            "text": "Parameter value used in file name."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0026",
+          "ruleIndex": 8,
+          "level": "error",
+          "message": {
+            "text": "Session cookies should be set to HTTP only."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/session_store.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0029",
+          "ruleIndex": 9,
+          "level": "error",
+          "message": {
+            "text": "Session secret should not be included in version control."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/secret_token.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/analytics.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "error",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 11
+                }
+              }
+            }
+          ]
+        },
+{
+          "ruleId": "BRAKE0114",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "HTML entities in JSON are not escaped by default."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/environments/production.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0070",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0105",
+          "ruleIndex": 5,
+          "level": "error",
+          "message": {
+            "text": "Potentially dangerous key allowed for mass assignment."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0023",
+          "ruleIndex": 6,
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/dashboard_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0016",
+          "ruleIndex": 7,
+          "level": "error",
+          "message": {
+            "text": "Parameter value used in file name."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0026",
+          "ruleIndex": 8,
+          "level": "error",
+          "message": {
+            "text": "Session cookies should be set to HTTP only."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/session_store.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0029",
+          "ruleIndex": 9,
+          "level": "error",
+          "message": {
+            "text": "Session secret should not be included in version control."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/secret_token.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/analytics.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "error",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 11
+                }
+              }
+            }
+          ]
+        },
+{
+          "ruleId": "BRAKE0114",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "HTML entities in JSON are not escaped by default."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/environments/production.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0070",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0105",
+          "ruleIndex": 5,
+          "level": "error",
+          "message": {
+            "text": "Potentially dangerous key allowed for mass assignment."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0023",
+          "ruleIndex": 6,
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/dashboard_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0016",
+          "ruleIndex": 7,
+          "level": "error",
+          "message": {
+            "text": "Parameter value used in file name."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0026",
+          "ruleIndex": 8,
+          "level": "error",
+          "message": {
+            "text": "Session cookies should be set to HTTP only."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/session_store.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0029",
+          "ruleIndex": 9,
+          "level": "error",
+          "message": {
+            "text": "Session secret should not be included in version control."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/secret_token.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/analytics.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "error",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 11
+                }
+              }
+            }
+          ]
+        },
+{
+          "ruleId": "BRAKE0114",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "HTML entities in JSON are not escaped by default."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/environments/production.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0070",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0105",
+          "ruleIndex": 5,
+          "level": "error",
+          "message": {
+            "text": "Potentially dangerous key allowed for mass assignment."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0023",
+          "ruleIndex": 6,
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/dashboard_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0016",
+          "ruleIndex": 7,
+          "level": "error",
+          "message": {
+            "text": "Parameter value used in file name."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0026",
+          "ruleIndex": 8,
+          "level": "error",
+          "message": {
+            "text": "Session cookies should be set to HTTP only."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/session_store.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0029",
+          "ruleIndex": 9,
+          "level": "error",
+          "message": {
+            "text": "Session secret should not be included in version control."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/secret_token.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/analytics.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "error",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 11
+                }
+              }
+            }
+          ]
+        },
+{
+          "ruleId": "BRAKE0114",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "HTML entities in JSON are not escaped by default."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/environments/production.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0070",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0105",
+          "ruleIndex": 5,
+          "level": "error",
+          "message": {
+            "text": "Potentially dangerous key allowed for mass assignment."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0023",
+          "ruleIndex": 6,
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/dashboard_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0016",
+          "ruleIndex": 7,
+          "level": "error",
+          "message": {
+            "text": "Parameter value used in file name."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0026",
+          "ruleIndex": 8,
+          "level": "error",
+          "message": {
+            "text": "Session cookies should be set to HTTP only."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/session_store.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0029",
+          "ruleIndex": 9,
+          "level": "error",
+          "message": {
+            "text": "Session secret should not be included in version control."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/secret_token.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/analytics.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "error",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 11
+                }
+              }
+            }
+          ]
+        },
+{
+          "ruleId": "BRAKE0114",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "HTML entities in JSON are not escaped by default."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/environments/production.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0070",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0105",
+          "ruleIndex": 5,
+          "level": "error",
+          "message": {
+            "text": "Potentially dangerous key allowed for mass assignment."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0023",
+          "ruleIndex": 6,
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/dashboard_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0016",
+          "ruleIndex": 7,
+          "level": "error",
+          "message": {
+            "text": "Parameter value used in file name."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0026",
+          "ruleIndex": 8,
+          "level": "error",
+          "message": {
+            "text": "Session cookies should be set to HTTP only."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/session_store.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0029",
+          "ruleIndex": 9,
+          "level": "error",
+          "message": {
+            "text": "Session secret should not be included in version control."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/secret_token.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/analytics.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "error",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 11
+                }
+              }
+            }
+          ]
+        },
+{
+          "ruleId": "BRAKE0114",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "HTML entities in JSON are not escaped by default."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/environments/production.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0070",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0105",
+          "ruleIndex": 5,
+          "level": "error",
+          "message": {
+            "text": "Potentially dangerous key allowed for mass assignment."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0023",
+          "ruleIndex": 6,
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/dashboard_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0016",
+          "ruleIndex": 7,
+          "level": "error",
+          "message": {
+            "text": "Parameter value used in file name."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0026",
+          "ruleIndex": 8,
+          "level": "error",
+          "message": {
+            "text": "Session cookies should be set to HTTP only."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/session_store.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0029",
+          "ruleIndex": 9,
+          "level": "error",
+          "message": {
+            "text": "Session secret should not be included in version control."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/secret_token.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/analytics.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "error",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 11
+                }
+              }
+            }
+          ]
+        },
+{
+          "ruleId": "BRAKE0114",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "HTML entities in JSON are not escaped by default."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/environments/production.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0070",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0105",
+          "ruleIndex": 5,
+          "level": "error",
+          "message": {
+            "text": "Potentially dangerous key allowed for mass assignment."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0023",
+          "ruleIndex": 6,
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/dashboard_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0016",
+          "ruleIndex": 7,
+          "level": "error",
+          "message": {
+            "text": "Parameter value used in file name."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0026",
+          "ruleIndex": 8,
+          "level": "error",
+          "message": {
+            "text": "Session cookies should be set to HTTP only."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/session_store.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0029",
+          "ruleIndex": 9,
+          "level": "error",
+          "message": {
+            "text": "Session secret should not be included in version control."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/secret_token.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/analytics.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "error",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 11
+                }
+              }
+            }
+          ]
+        },
+{
+          "ruleId": "BRAKE0114",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "HTML entities in JSON are not escaped by default."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/environments/production.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0070",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0105",
+          "ruleIndex": 5,
+          "level": "error",
+          "message": {
+            "text": "Potentially dangerous key allowed for mass assignment."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0023",
+          "ruleIndex": 6,
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/dashboard_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0016",
+          "ruleIndex": 7,
+          "level": "error",
+          "message": {
+            "text": "Parameter value used in file name."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0026",
+          "ruleIndex": 8,
+          "level": "error",
+          "message": {
+            "text": "Session cookies should be set to HTTP only."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/session_store.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0029",
+          "ruleIndex": 9,
+          "level": "error",
+          "message": {
+            "text": "Session secret should not be included in version control."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/secret_token.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/analytics.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "error",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 11
+                }
+              }
+            }
+          ]
+        },
+{
+          "ruleId": "BRAKE0114",
+          "ruleIndex": 3,
+          "level": "warning",
+          "message": {
+            "text": "HTML entities in JSON are not escaped by default."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/environments/production.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0070",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0105",
+          "ruleIndex": 5,
+          "level": "error",
+          "message": {
+            "text": "Potentially dangerous key allowed for mass assignment."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0023",
+          "ruleIndex": 6,
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/dashboard_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0016",
+          "ruleIndex": 7,
+          "level": "error",
+          "message": {
+            "text": "Parameter value used in file name."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0026",
+          "ruleIndex": 8,
+          "level": "error",
+          "message": {
+            "text": "Session cookies should be set to HTTP only."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/session_store.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0029",
+          "ruleIndex": 9,
+          "level": "error",
+          "message": {
+            "text": "Session secret should not be included in version control."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "config/initializers/secret_token.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/analytics.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0000",
+          "ruleIndex": 10,
+          "level": "error",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/api/v1/mobile_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0024",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Unsafe reflection method `constantize` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/benefit_forms_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 11
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "BRAKE0002",
+          "ruleIndex": 12,
+          "level": "error",
+          "message": {
+            "text": "Unescaped cookie value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/views/layouts/application.html.erb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
           "ruleId": "BRAKE0030",
           "ruleIndex": 13,
           "level": "error",
