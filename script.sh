@@ -1,0 +1,1 @@
+cat ./brakeman-large.sarif
