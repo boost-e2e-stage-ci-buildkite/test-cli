@@ -7,7 +7,7 @@ echo $1 $HEAD
   --report-upload \
   --branch testing-something-out \
   --project github/david-test-org-2/railsgoat \
-  --command "sh ./script.sh" \
+  --command "sh ./script.sh $HEAD" \
   --require-full-repo \
   --pull-request 1 \
   --path . HEAD..HEAD~1
