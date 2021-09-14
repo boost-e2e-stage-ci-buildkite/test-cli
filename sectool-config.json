@@ -1,0 +1,10 @@
+{
+  "violation-policy": [
+    {
+      "rules": {
+        "semgrep-ruby.lang.security.weak-hashes-md5.weak-hashes-md5": "alert",
+        "brakeman-BRAKE0030": "alert"
+      }
+    }
+  ]
+}
