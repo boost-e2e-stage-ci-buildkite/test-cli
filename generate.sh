@@ -253,6 +253,7 @@ HEADER_TPL=$(cat <<EOF
           ]
         }
       },
+    "results": [
 EOF
 )
 
@@ -279,11 +280,12 @@ add_result ()
       }
     }
   ]
-},
+}
 EOF
 }
 
 FOOTER_TPL=$(cat <<EOF
+      ]
     }
   ]
 }
@@ -292,17 +294,18 @@ EOF
 
 generate()
 { # $1=max, $2=severity (error|warning)
-  rm -rf ./tmp
+  rm -rf ./tmp generated.json
   mkdir -p ./tmp
 
-  echo "${HEADER_TPL}" > generated.sarif
+  echo "${HEADER_TPL}" > generated.json
 
-  for n in $(seq 1 ${1:-1000}); do
+  for n in $(seq 0 ${1:-1000}); do
     cp Gemfile.lock "tmp/Gemfile.${n}.lock"
-    add_result "${n}" "${2:-error}" >> generated.sarif
+    add_result "${n}" "${2:-error}" >> generated.json
+    test ${1:-1000} -eq ${n} || echo "," >> generated.json
   done
 
-  echo "${FOOTER_TPL}" >> generated.sarif
+  echo "${FOOTER_TPL}" >> generated.json
 }
 
 generate "${@}"
