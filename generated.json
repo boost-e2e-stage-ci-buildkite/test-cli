@@ -252,9 +252,9 @@
       },
     "results": [
 {
-  "ruleId": "BRAKE0025",
+  "ruleId": "BRAKE0116",
   "ruleIndex": 0,
-  "level": "warning",
+  "level": "error",
   "message": {
     "text": "Rails 6.0.0 has a vulnerability that may allow CSRF token forgery. Upgrade to Rails 6.0.3.1 or patch."
   },
@@ -276,7 +276,7 @@
 {
   "ruleId": "BRAKE0116",
   "ruleIndex": 0,
-  "level": "warning",
+  "level": "error",
   "message": {
     "text": "Rails 6.0.0 has a vulnerability that may allow CSRF token forgery. Upgrade to Rails 6.0.3.1 or patch."
   },
@@ -285,6 +285,204 @@
       "physicalLocation": {
         "artifactLocation": {
           "uri": "tmp/Gemfile.1.lock",
+          "uriBaseId": "%SRCROOT%"
+        },
+        "region": {
+          "startLine": 223
+        }
+      }
+    }
+  ]
+}
+,
+{
+  "ruleId": "BRAKE0116",
+  "ruleIndex": 0,
+  "level": "error",
+  "message": {
+    "text": "Rails 6.0.0 has a vulnerability that may allow CSRF token forgery. Upgrade to Rails 6.0.3.1 or patch."
+  },
+  "locations": [
+    {
+      "physicalLocation": {
+        "artifactLocation": {
+          "uri": "tmp/Gemfile.2.lock",
+          "uriBaseId": "%SRCROOT%"
+        },
+        "region": {
+          "startLine": 223
+        }
+      }
+    }
+  ]
+}
+,
+{
+  "ruleId": "BRAKE0116",
+  "ruleIndex": 0,
+  "level": "error",
+  "message": {
+    "text": "Rails 6.0.0 has a vulnerability that may allow CSRF token forgery. Upgrade to Rails 6.0.3.1 or patch."
+  },
+  "locations": [
+    {
+      "physicalLocation": {
+        "artifactLocation": {
+          "uri": "tmp/Gemfile.3.lock",
+          "uriBaseId": "%SRCROOT%"
+        },
+        "region": {
+          "startLine": 223
+        }
+      }
+    }
+  ]
+}
+,
+{
+  "ruleId": "BRAKE0116",
+  "ruleIndex": 0,
+  "level": "error",
+  "message": {
+    "text": "Rails 6.0.0 has a vulnerability that may allow CSRF token forgery. Upgrade to Rails 6.0.3.1 or patch."
+  },
+  "locations": [
+    {
+      "physicalLocation": {
+        "artifactLocation": {
+          "uri": "tmp/Gemfile.4.lock",
+          "uriBaseId": "%SRCROOT%"
+        },
+        "region": {
+          "startLine": 223
+        }
+      }
+    }
+  ]
+}
+,
+{
+  "ruleId": "BRAKE0116",
+  "ruleIndex": 0,
+  "level": "error",
+  "message": {
+    "text": "Rails 6.0.0 has a vulnerability that may allow CSRF token forgery. Upgrade to Rails 6.0.3.1 or patch."
+  },
+  "locations": [
+    {
+      "physicalLocation": {
+        "artifactLocation": {
+          "uri": "tmp/Gemfile.5.lock",
+          "uriBaseId": "%SRCROOT%"
+        },
+        "region": {
+          "startLine": 223
+        }
+      }
+    }
+  ]
+}
+,
+{
+  "ruleId": "BRAKE0116",
+  "ruleIndex": 0,
+  "level": "error",
+  "message": {
+    "text": "Rails 6.0.0 has a vulnerability that may allow CSRF token forgery. Upgrade to Rails 6.0.3.1 or patch."
+  },
+  "locations": [
+    {
+      "physicalLocation": {
+        "artifactLocation": {
+          "uri": "tmp/Gemfile.6.lock",
+          "uriBaseId": "%SRCROOT%"
+        },
+        "region": {
+          "startLine": 223
+        }
+      }
+    }
+  ]
+}
+,
+{
+  "ruleId": "BRAKE0116",
+  "ruleIndex": 0,
+  "level": "error",
+  "message": {
+    "text": "Rails 6.0.0 has a vulnerability that may allow CSRF token forgery. Upgrade to Rails 6.0.3.1 or patch."
+  },
+  "locations": [
+    {
+      "physicalLocation": {
+        "artifactLocation": {
+          "uri": "tmp/Gemfile.7.lock",
+          "uriBaseId": "%SRCROOT%"
+        },
+        "region": {
+          "startLine": 223
+        }
+      }
+    }
+  ]
+}
+,
+{
+  "ruleId": "BRAKE0116",
+  "ruleIndex": 0,
+  "level": "error",
+  "message": {
+    "text": "Rails 6.0.0 has a vulnerability that may allow CSRF token forgery. Upgrade to Rails 6.0.3.1 or patch."
+  },
+  "locations": [
+    {
+      "physicalLocation": {
+        "artifactLocation": {
+          "uri": "tmp/Gemfile.8.lock",
+          "uriBaseId": "%SRCROOT%"
+        },
+        "region": {
+          "startLine": 223
+        }
+      }
+    }
+  ]
+}
+,
+{
+  "ruleId": "BRAKE0116",
+  "ruleIndex": 0,
+  "level": "error",
+  "message": {
+    "text": "Rails 6.0.0 has a vulnerability that may allow CSRF token forgery. Upgrade to Rails 6.0.3.1 or patch."
+  },
+  "locations": [
+    {
+      "physicalLocation": {
+        "artifactLocation": {
+          "uri": "tmp/Gemfile.9.lock",
+          "uriBaseId": "%SRCROOT%"
+        },
+        "region": {
+          "startLine": 223
+        }
+      }
+    }
+  ]
+}
+,
+{
+  "ruleId": "BRAKE0116",
+  "ruleIndex": 0,
+  "level": "error",
+  "message": {
+    "text": "Rails 6.0.0 has a vulnerability that may allow CSRF token forgery. Upgrade to Rails 6.0.3.1 or patch."
+  },
+  "locations": [
+    {
+      "physicalLocation": {
+        "artifactLocation": {
+          "uri": "tmp/Gemfile.10.lock",
           "uriBaseId": "%SRCROOT%"
         },
         "region": {
