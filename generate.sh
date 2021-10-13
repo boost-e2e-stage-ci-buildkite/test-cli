@@ -258,9 +258,17 @@ EOF
 )
 
 add_result ()
-{ # $1=index, $2=severity
-  if [ "${1}" == "1" ]; then
+{ # $1=index, $2=severity, $3=unique_field
+  if [ ${1} -le 5 ]; then
+    echo "${3}" > "tmp/Gemfile.${1}.lock"
+  fi
+
+  cat Gemfile.lock >> "tmp/Gemfile.${1}.lock"
+
+  if [ ${1} -lt 3 ] || [ ${1} -eq 6 ]; then
     suppressions='"suppressions": [ { "kind": "inSource" } ],'
+  else
+    suppressions=''
   fi
 
   cat <<EOF
@@ -306,9 +314,7 @@ generate()
   now=$(date)
 
   for n in $(seq 0 ${1:-1000}); do
-    echo "${now}" > "tmp/Gemfile.${n}.lock"
-    cat Gemfile.lock >> "tmp/Gemfile.${n}.lock"
-    add_result "${n}" "${2:-error}" >> generated.json
+    add_result "${n}" "${2:-error}" "${now}" >> generated.json
     test ${1:-1000} -eq ${n} || echo "," >> generated.json
   done
 
