@@ -259,6 +259,10 @@ EOF
 
 add_result ()
 { # $1=index, $2=severity
+  if [ "${1}" == "1" ]; then
+    suppressions='"suppressions": [ { "kind": "inSource" } ],'
+  fi
+
   cat <<EOF
 {
   "ruleId": "BRAKE0116",
@@ -266,10 +270,7 @@ add_result ()
   "level": "${2}",
   "message": {
     "text": "Rails 6.0.0 has a vulnerability that may allow CSRF token forgery. Upgrade to Rails 6.0.3.1 or patch."
-  },
-  "suppressions": [
-    { "kind": "inSource" }
-  ],
+  },${suppressions}
   "locations": [
     {
       "physicalLocation": {
