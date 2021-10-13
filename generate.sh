@@ -275,7 +275,7 @@ add_result ()
           "uriBaseId": "%SRCROOT%"
         },
         "region": {
-          "startLine": 223
+          "startLine": 1
         }
       }
     }
@@ -299,8 +299,11 @@ generate()
 
   echo "${HEADER_TPL}" > generated.json
 
+  now=$(date)
+
   for n in $(seq 0 ${1:-1000}); do
-    cp Gemfile.lock "tmp/Gemfile.${n}.lock"
+    echo "${now}" > "tmp/Gemfile.${n}.lock"
+    cat Gemfile.lock >> "tmp/Gemfile.${n}.lock"
     add_result "${n}" "${2:-error}" >> generated.json
     test ${1:-1000} -eq ${n} || echo "," >> generated.json
   done
