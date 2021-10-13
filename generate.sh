@@ -267,6 +267,9 @@ add_result ()
   "message": {
     "text": "Rails 6.0.0 has a vulnerability that may allow CSRF token forgery. Upgrade to Rails 6.0.3.1 or patch."
   },
+  "suppressions": [
+    { "kind": "inSource" }
+  ],
   "locations": [
     {
       "physicalLocation": {
