@@ -269,7 +269,7 @@ add_result ()
   if [ $(($1%2)) -eq 0 ]; then
     rule="BRAKE0116"
   else
-    rule="BRAKE0002"
+    rule="BRAKE0014"
   fi
 
   cat Gemfile.lock >> "tmp/Gemfile.${1}.lock"
