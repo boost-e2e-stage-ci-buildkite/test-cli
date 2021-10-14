@@ -266,6 +266,12 @@ add_result ()
     echo "${3}" > "tmp/Gemfile.${1}.lock"
   fi
 
+  if [ $((number%2)) -eq 0 ]; then
+    rule="BRAKE0116"
+  else
+    rule="BRAKE0002"
+  fi
+
   cat Gemfile.lock >> "tmp/Gemfile.${1}.lock"
 
   if [ ${1} -lt ${SUPPRESSED_ITEMS} ] || [ ${1} -eq 6 ]; then
@@ -276,7 +282,7 @@ add_result ()
 
   cat <<EOF
 {
-  "ruleId": "BRAKE0116",
+  "ruleId": "${rule}",
   "ruleIndex": 0,
   "level": "${2}",
   "message": {
