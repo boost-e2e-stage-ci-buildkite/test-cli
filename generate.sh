@@ -47,8 +47,8 @@ HEADER_TPL=$(cat <<EOF
               }
             },
             {
-              "id": "BRAKE0014",
-              "name": "Execute/Command Injection",
+              "id": "BRAKE9999",
+              "name": "NOOP/Command Injection",
               "fullDescription": {
                 "text": "Finds instances of possible command injection."
               },
@@ -269,7 +269,7 @@ add_result ()
   if [ $(($1%2)) -eq 0 ]; then
     rule="BRAKE0116"
   else
-    rule="BRAKE0014"
+    rule="BRAKE9999"
   fi
 
   cat Gemfile.lock >> "tmp/Gemfile.${1}.lock"

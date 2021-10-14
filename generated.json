@@ -44,8 +44,8 @@
               }
             },
             {
-              "id": "BRAKE0014",
-              "name": "Execute/Command Injection",
+              "id": "BRAKE9999",
+              "name": "NOOP/Command Injection",
               "fullDescription": {
                 "text": "Finds instances of possible command injection."
               },
@@ -274,7 +274,7 @@
 }
 ,
 {
-  "ruleId": "BRAKE0014",
+  "ruleId": "BRAKE9999",
   "ruleIndex": 0,
   "level": "error",
   "message": {
@@ -318,7 +318,7 @@
 }
 ,
 {
-  "ruleId": "BRAKE0014",
+  "ruleId": "BRAKE9999",
   "ruleIndex": 0,
   "level": "error",
   "message": {
@@ -362,7 +362,7 @@
 }
 ,
 {
-  "ruleId": "BRAKE0014",
+  "ruleId": "BRAKE9999",
   "ruleIndex": 0,
   "level": "error",
   "message": {
@@ -406,7 +406,7 @@
 }
 ,
 {
-  "ruleId": "BRAKE0014",
+  "ruleId": "BRAKE9999",
   "ruleIndex": 0,
   "level": "error",
   "message": {
@@ -450,7 +450,7 @@
 }
 ,
 {
-  "ruleId": "BRAKE0014",
+  "ruleId": "BRAKE9999",
   "ruleIndex": 0,
   "level": "error",
   "message": {
@@ -494,7 +494,7 @@
 }
 ,
 {
-  "ruleId": "BRAKE0014",
+  "ruleId": "BRAKE9999",
   "ruleIndex": 0,
   "level": "error",
   "message": {

@@ -55,7 +55,7 @@
         "brakeman-CheckBasicAuth": "alert",
         "brakeman-CheckSecrets": "alert",
         "brakeman-CheckSessionManipulation": "alert",
-        "x-brakeman-CheckExecute": "alert",
+        "brakeman-CheckExecute": "alert",
         "brakeman-CheckFileAccess": "alert",
         "brakeman-CheckPageCachingCVE": "alert",
         "brakeman-CheckQuoteTableName": "alert",
