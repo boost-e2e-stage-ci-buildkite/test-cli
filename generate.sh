@@ -260,7 +260,7 @@ EOF
 add_result ()
 { # $1=index, $2=severity, $3=unique_field
   NEW_ITEMS=5
-  SUPPRESSED_ITEMS=3
+  SUPPRESSED_ITEMS=2
 
   if [ ${1} -le ${NEW_ITEMS} ]; then
     echo "${3}" > "tmp/Gemfile.${1}.lock"
@@ -274,7 +274,7 @@ add_result ()
 
   cat Gemfile.lock >> "tmp/Gemfile.${1}.lock"
 
-  if [ ${1} -lt ${SUPPRESSED_ITEMS} ] || [ ${1} -eq 6 ]; then
+  if [ ${1} -lt ${SUPPRESSED_ITEMS} ] || [ ${1} -eq 6 ] || [ ${1} -eq 7 ]; then
     suppressions='"suppressions": [ { "kind": "inSource" } ],'
   else
     suppressions=''
