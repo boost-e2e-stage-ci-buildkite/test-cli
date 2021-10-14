@@ -275,7 +275,7 @@
 ,
 {
   "ruleId": "BRAKE9999",
-  "ruleIndex": 0,
+  "ruleIndex": 3,
   "level": "error",
   "message": {
     "text": "Rails 6.0.0 has a vulnerability that may allow CSRF token forgery. Upgrade to Rails 6.0.3.1 or patch."
@@ -319,7 +319,7 @@
 ,
 {
   "ruleId": "BRAKE9999",
-  "ruleIndex": 0,
+  "ruleIndex": 3,
   "level": "error",
   "message": {
     "text": "Rails 6.0.0 has a vulnerability that may allow CSRF token forgery. Upgrade to Rails 6.0.3.1 or patch."
@@ -363,7 +363,7 @@
 ,
 {
   "ruleId": "BRAKE9999",
-  "ruleIndex": 0,
+  "ruleIndex": 3,
   "level": "error",
   "message": {
     "text": "Rails 6.0.0 has a vulnerability that may allow CSRF token forgery. Upgrade to Rails 6.0.3.1 or patch."
@@ -407,7 +407,7 @@
 ,
 {
   "ruleId": "BRAKE9999",
-  "ruleIndex": 0,
+  "ruleIndex": 3,
   "level": "error",
   "message": {
     "text": "Rails 6.0.0 has a vulnerability that may allow CSRF token forgery. Upgrade to Rails 6.0.3.1 or patch."
@@ -451,7 +451,7 @@
 ,
 {
   "ruleId": "BRAKE9999",
-  "ruleIndex": 0,
+  "ruleIndex": 3,
   "level": "error",
   "message": {
     "text": "Rails 6.0.0 has a vulnerability that may allow CSRF token forgery. Upgrade to Rails 6.0.3.1 or patch."
@@ -495,7 +495,7 @@
 ,
 {
   "ruleId": "BRAKE9999",
-  "ruleIndex": 0,
+  "ruleIndex": 3,
   "level": "error",
   "message": {
     "text": "Rails 6.0.0 has a vulnerability that may allow CSRF token forgery. Upgrade to Rails 6.0.3.1 or patch."

@@ -268,8 +268,10 @@ add_result ()
 
   if [ $(($1%2)) -eq 0 ]; then
     rule="BRAKE0116"
+    rule_index=0
   else
     rule="BRAKE9999"
+    rule_index=3
   fi
 
   cat Gemfile.lock >> "tmp/Gemfile.${1}.lock"
@@ -283,7 +285,7 @@ add_result ()
   cat <<EOF
 {
   "ruleId": "${rule}",
-  "ruleIndex": 0,
+  "ruleIndex": ${rule_index},
   "level": "${2}",
   "message": {
     "text": "Rails 6.0.0 has a vulnerability that may allow CSRF token forgery. Upgrade to Rails 6.0.3.1 or patch."
