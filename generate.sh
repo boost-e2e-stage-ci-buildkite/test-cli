@@ -259,7 +259,7 @@ EOF
 
 add_result ()
 { # $1=index, $2=severity, $3=unique_field
-  NEW_ITEMS=5
+  NEW_ITEMS=11
   SUPPRESSED_ITEMS=3
 
   if [ ${1} -le ${NEW_ITEMS} ]; then
