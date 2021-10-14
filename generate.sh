@@ -266,7 +266,7 @@ add_result ()
     echo "${3}" > "tmp/Gemfile.${1}.lock"
   fi
 
-  if [ $((number%2)) -eq 0 ]; then
+  if [ $(($1%2)) -eq 0 ]; then
     rule="BRAKE0116"
   else
     rule="BRAKE0002"
