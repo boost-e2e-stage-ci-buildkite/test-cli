@@ -41,7 +41,7 @@
         "brakeman-CheckModelSerialize": "alert",
         "brakeman-CheckDefaultRoutes": "alert",
         "brakeman-CheckFileDisclosure": "alert",
-        "brakeman-CheckCSRFTokenForgeryCVE": "alert",
+        "x-brakeman-CheckCSRFTokenForgeryCVE": "alert",
         "brakeman-CheckForceSSL": "alert",
         "brakeman-CheckForgerySetting": "alert",
         "brakeman-CheckJRubyXML": "alert",
