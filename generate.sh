@@ -262,8 +262,6 @@ add_result ()
   NEW_ITEMS=5
   SUPPRESSED_ITEMS=3
 
-  SUPPRESSED_ITEMS=100
-
   if [ ${1} -le ${NEW_ITEMS} ]; then
     echo "${3}" > "tmp/Gemfile.${1}.lock"
   fi
